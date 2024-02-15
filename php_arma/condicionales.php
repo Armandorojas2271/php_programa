@@ -1,6 +1,6 @@
 <?php
 
-$edad = 15;
+$edad = 18;
 if ($edad >= 18 && $edad < 70){
     print "<br>Eres mayor de edad";
 }else if($edad < 18 && $edad >= 11){
@@ -18,5 +18,6 @@ switch($edad){
         break;
     default:
         print "<br>Nada que festejar";
-
 }
+
+$respueta = ($edad >= 18)?"Eres mayor":"Eres menor";

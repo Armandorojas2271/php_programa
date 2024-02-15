@@ -7,20 +7,22 @@
         .estilo_par{ 
             color:red;
         }
+        .estilo_impar{ 
+            color:red;
+        }
     </style>
 </head>
 <body>
 <?php
 //
-for($x = 0 ; $x < 10 ; $x++){
-    print("9=x $x = ".(9 * $x)."<br>");
+for($x = 1 ; $x <= 100 ; $x++){ 
 
     //
     if($x % 2 == 0){
-        print "<p class='estilo-par'> $x </p>";
+        echo "<p class='estilo-par'> $x </p>";
     }else{ 
     //impar
-    print "<p class=estilo_impar'> $x </p>",s
+    echo "<p class=estilo_impar'> $x </p>";
     }
 
 }
